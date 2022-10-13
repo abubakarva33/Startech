@@ -144,6 +144,39 @@ a:hover{
 #Comparison:hover{
     background-color: blue;
     color: antiquewhite;
-
-
+}
+.marquee{
+    border: 1px solid white;
+    background-color: aliceblue;
+    margin: 10px 20px;
+    padding: 10px;
+}
+.category{
+    text-align: center;
+}
+.category h2{
+    padding-top: 40px;
+}
+.category p{
+    padding: 20px;
+}
+.category-bottom ul li {
+    display: flex;
+    font-size: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.category-bottom ul li a{
+    display: block;
+    font-size: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #081621;
+    padding: 20px;
+    height: 130px;
+    width: 175px;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+.category-list h5{
+    font-size: 15px;
+    padding: 15px;
 }
